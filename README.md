@@ -1,6 +1,6 @@
-# mydreampool
+#mydreampool#
 This repository is just for deploying my portfolio app with vercel.
-My skills are 
+##My skills## 
 **Full-Stack**
 "Python", "JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "FastAPI", 
 **Databases**
