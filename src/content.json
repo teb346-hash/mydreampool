@@ -1,0 +1,148 @@
+{
+  "personalInfo": {
+    "name": "Your Name",
+    "title": "Full Stack Developer",
+    "description": "Passionate developer creating amazing digital experiences with modern technologies.",
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+    "location": "San Francisco, CA",
+    "email": "your.email@example.com",
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "twitter": "https://twitter.com/yourusername"
+  },
+  "skills": [
+    {
+      "name": "React",
+      "level": 90,
+      "icon": "⚛️"
+    },
+    {
+      "name": "JavaScript",
+      "level": 95,
+      "icon": "🟨"
+    },
+    {
+      "name": "TypeScript",
+      "level": 85,
+      "icon": "🔷"
+    },
+    {
+      "name": "Node.js",
+      "level": 80,
+      "icon": "🟢"
+    },
+    {
+      "name": "Python",
+      "level": 75,
+      "icon": "🐍"
+    },
+    {
+      "name": "CSS/SCSS",
+      "level": 90,
+      "icon": "🎨"
+    },
+    {
+      "name": "Git",
+      "level": 85,
+      "icon": "📝"
+    },
+    {
+      "name": "Docker",
+      "level": 70,
+      "icon": "🐳"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and inventory management.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+      "githubUrl": "https://github.com/yourusername/ecommerce-platform",
+      "liveUrl": "https://your-ecommerce-demo.com",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+      "technologies": ["React", "Socket.io", "Express", "PostgreSQL"],
+      "githubUrl": "https://github.com/yourusername/task-manager",
+      "liveUrl": "https://your-task-manager-demo.com",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Weather Dashboard",
+      "description": "A responsive weather dashboard that displays current weather conditions and forecasts for multiple cities with beautiful animations.",
+      "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
+      "technologies": ["React", "OpenWeather API", "Chart.js", "CSS3"],
+      "githubUrl": "https://github.com/yourusername/weather-dashboard",
+      "liveUrl": "https://your-weather-demo.com",
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "Social Media Analytics",
+      "description": "A comprehensive analytics platform for social media metrics with data visualization and reporting capabilities.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      "technologies": ["React", "D3.js", "Python", "FastAPI"],
+      "githubUrl": "https://github.com/yourusername/social-analytics",
+      "liveUrl": "https://your-analytics-demo.com",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "title": "Senior Frontend Developer",
+      "company": "Tech Innovations Inc.",
+      "location": "San Francisco, CA",
+      "period": "2022 - Present",
+      "description": "Leading frontend development for multiple high-traffic web applications. Mentoring junior developers and implementing best practices for scalable React applications.",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop",
+      "achievements": [
+        "Improved application performance by 40% through code optimization",
+        "Led migration from legacy jQuery to modern React architecture",
+        "Implemented CI/CD pipelines reducing deployment time by 60%"
+      ],
+      "technologies": ["React", "TypeScript", "Redux", "Jest", "Webpack"]
+    },
+    {
+      "id": 2,
+      "title": "Full Stack Developer",
+      "company": "Digital Solutions Ltd.",
+      "location": "New York, NY",
+      "period": "2020 - 2022",
+      "description": "Developed full-stack applications using modern web technologies. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=400&h=300&fit=crop",
+      "achievements": [
+        "Built 15+ web applications from concept to deployment",
+        "Reduced server response time by 50% through database optimization",
+        "Implemented automated testing increasing code coverage to 90%"
+      ],
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "AWS"]
+    },
+    {
+      "id": 3,
+      "title": "Junior Web Developer",
+      "company": "StartupXYZ",
+      "location": "Austin, TX",
+      "period": "2019 - 2020",
+      "description": "Started my professional journey building responsive websites and learning modern web development practices. Contributed to various client projects and internal tools.",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop",
+      "achievements": [
+        "Developed 10+ responsive websites for clients",
+        "Learned modern JavaScript frameworks and tools",
+        "Contributed to open-source projects"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
+    }
+  ],
+  "about": {
+    "title": "About Me",
+    "content": "I'm a passionate full-stack developer with over 4 years of experience creating digital solutions that make a difference. I love turning complex problems into simple, beautiful, and intuitive designs.\n\nWhen I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in continuous learning and staying up-to-date with the latest trends in web development.\n\nMy goal is to create applications that not only meet requirements but exceed expectations, providing users with exceptional experiences while maintaining clean, maintainable code."
+  }
+}
