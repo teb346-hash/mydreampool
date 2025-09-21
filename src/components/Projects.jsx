@@ -24,7 +24,7 @@ const Projects = ({ data }) => {
 
   return (
     <section id="projects" className="section bg-gray-50">
-      <div className="container mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <motion.div
           variants={containerVariants}
           initial="hidden"

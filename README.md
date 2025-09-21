@@ -23,6 +23,7 @@ A modern, responsive portfolio website built with React + Vite, featuring smooth
 ## ✨ Features
 
 - **Modern Design**: Clean, professional layout with gradient accents and smooth animations
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
 - **Responsive**: Fully responsive design that works on all devices
 - **Smooth Navigation**: Single-page application with smooth scrolling between sections
 - **Content Management**: All content centralized in `content.json` for easy updates
@@ -30,6 +31,7 @@ A modern, responsive portfolio website built with React + Vite, featuring smooth
 - **Project Showcase**: Animated project cards with hover effects
 - **Experience Timeline**: Professional experience with expandable achievements
 - **Skills Visualization**: Interactive skill bars with animations
+- **Custom Theme**: Extended Tailwind configuration with custom colors and animations
 - **Vercel Ready**: Optimized for deployment on Vercel
 
 ## 🚀 Quick Start
@@ -98,12 +100,23 @@ All content is managed through `src/content.json`. Simply edit this file to upda
 - Professional experience and achievements
 - About section content
 
-### Styling
+### Styling with Tailwind CSS
 
-- Global styles: `src/index.css`
-- Component-specific styles: `src/App.css`
-- CSS variables for easy theme customization
-- Responsive design with mobile-first approach
+- **Tailwind Configuration**: `tailwind.config.js` - Custom colors, animations, and theme extensions
+- **Global Styles**: `src/index.css` - Tailwind directives and custom component classes
+- **Component Styles**: `src/App.css` - Additional component-specific styles
+- **Custom Colors**: Primary, secondary, and accent color palettes
+- **Custom Animations**: Fade-in, float, smoke effects, and more
+- **Responsive Design**: Mobile-first approach with Tailwind's responsive utilities
+
+### Tailwind CSS Features Used
+
+- **Utility Classes**: Rapid styling with utility-first approach
+- **Custom Components**: Reusable component classes with `@apply`
+- **Custom Colors**: Extended color palette with primary, secondary, and accent colors
+- **Custom Animations**: Tailwind-compatible animations for smooth interactions
+- **Responsive Design**: Breakpoint-based responsive utilities
+- **Gradient Backgrounds**: Custom gradient utilities for modern design
 
 ### Adding New Sections
 
@@ -133,10 +146,33 @@ npm run build
 
 ## 🛠️ Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
+- `npm run dev` - Start development server with Tailwind CSS
+- `npm run build` - Build for production (includes Tailwind CSS purging)
 - `npm run preview` - Preview production build locally
 - `npm run lint` - Run ESLint
+
+## 🎨 Tailwind CSS Integration
+
+This project uses Tailwind CSS for styling with the following features:
+
+### Custom Configuration
+- **Custom Colors**: Primary (indigo), Secondary (pink), Accent (cyan) color palettes
+- **Custom Animations**: Fade-in-up, float, smoke effects, and pulse animations
+- **Custom Gradients**: Primary and secondary gradient backgrounds
+- **Extended Theme**: Custom font families, shadows, and backdrop blur utilities
+
+### Component Classes
+- `.btn` - Button base styles with variants (primary, secondary)
+- `.section` - Section spacing and layout
+- `.section-title` - Styled section headings with gradient text
+- `.card` - Card component with hover effects
+- `.gradient-text` - Gradient text effect
+- `.hover-lift` - Hover animation effects
+
+### Responsive Design
+- Mobile-first approach with Tailwind's responsive utilities
+- Custom breakpoints and spacing
+- Responsive typography and layout adjustments
 
 ## 📱 Browser Support
 

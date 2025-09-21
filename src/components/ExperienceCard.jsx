@@ -26,11 +26,11 @@ const ExperienceCard = ({ experience, index }) => {
     >
       {/* Timeline line */}
       {index < 2 && (
-        <div className="absolute left-8 top-16 w-0.5 h-full bg-gradient-to-b from-indigo-500 to-pink-500"></div>
+        <div className="absolute left-8 top-16 w-0.5 h-full bg-gradient-primary"></div>
       )}
       
       {/* Timeline dot */}
-      <div className="absolute left-6 top-8 w-4 h-4 bg-gradient-to-r from-indigo-500 to-pink-500 rounded-full border-4 border-white shadow-lg"></div>
+      <div className="absolute left-6 top-8 w-4 h-4 bg-gradient-primary rounded-full border-4 border-white shadow-lg"></div>
       
       <div className="ml-16 bg-white rounded-2xl p-6 shadow-lg hover-lift">
         {/* Company Image */}
@@ -44,7 +44,7 @@ const ExperienceCard = ({ experience, index }) => {
             <h3 className="text-xl font-bold text-gray-800 mb-1">
               {experience.title}
             </h3>
-            <p className="text-lg font-semibold text-indigo-600 mb-1">
+            <p className="text-lg font-semibold text-primary-600 mb-1">
               {experience.company}
             </p>
             <div className="flex items-center space-x-2 text-gray-500">
@@ -77,7 +77,7 @@ const ExperienceCard = ({ experience, index }) => {
                 viewport={{ once: true }}
                 transition={{ delay: achievementIndex * 0.1 }}
               >
-                <span className="text-indigo-500 mt-1">•</span>
+                <span className="text-primary-500 mt-1">•</span>
                 <span>{achievement}</span>
               </motion.li>
             ))}
@@ -86,7 +86,7 @@ const ExperienceCard = ({ experience, index }) => {
           {experience.achievements.length > 2 && (
             <motion.button
               onClick={() => setIsExpanded(!isExpanded)}
-              className="text-indigo-600 text-sm font-medium hover:text-indigo-700 transition-colors mt-2"
+              className="text-primary-600 text-sm font-medium hover:text-primary-700 transition-colors mt-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -102,7 +102,7 @@ const ExperienceCard = ({ experience, index }) => {
             {experience.technologies.map((tech, techIndex) => (
               <motion.span
                 key={tech}
-                className="bg-gradient-to-r from-indigo-50 to-pink-50 text-indigo-700 px-3 py-1 rounded-full text-sm font-medium border border-indigo-200"
+                className="bg-gradient-to-r from-primary-50 to-secondary-50 text-primary-700 px-3 py-1 rounded-full text-sm font-medium border border-primary-200"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}

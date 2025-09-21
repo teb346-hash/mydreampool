@@ -77,7 +77,7 @@ const ProjectCard = ({ project, index }) => {
           {/* Featured Badge */}
           {project.featured && (
             <div className="absolute top-4 right-4">
-              <span className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white px-3 py-1 rounded-full text-xs font-semibold">
+              <span className="bg-gradient-primary text-white px-3 py-1 rounded-full text-xs font-semibold">
                 Featured
               </span>
             </div>
@@ -86,7 +86,7 @@ const ProjectCard = ({ project, index }) => {
         
         {/* Project Content */}
         <div className="p-6">
-          <h3 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-indigo-600 transition-colors">
+          <h3 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-primary-600 transition-colors">
             {project.title}
           </h3>
           
@@ -129,7 +129,7 @@ const ProjectCard = ({ project, index }) => {
                 href={project.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 bg-gradient-to-r from-indigo-500 to-pink-500 hover:from-indigo-600 hover:to-pink-600 text-white text-center py-2 px-4 rounded-lg font-medium transition-all"
+                className="flex-1 bg-gradient-primary hover:opacity-90 text-white text-center py-2 px-4 rounded-lg font-medium transition-all"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >

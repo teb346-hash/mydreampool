@@ -24,7 +24,7 @@ const Experience = ({ data }) => {
 
   return (
     <section id="experience" className="section">
-      <div className="container mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -56,7 +56,7 @@ const Experience = ({ data }) => {
             variants={itemVariants}
             className="text-center mt-16"
           >
-            <div className="bg-gradient-to-r from-indigo-500 to-pink-500 rounded-2xl p-8 text-white">
+            <div className="bg-gradient-primary rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">Let's Work Together</h3>
               <p className="text-lg opacity-90 max-w-2xl mx-auto mb-6">
                 I'm always excited to take on new challenges and collaborate on interesting projects. 
@@ -64,7 +64,7 @@ const Experience = ({ data }) => {
               </p>
               <motion.a
                 href="mailto:your.email@example.com"
-                className="bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
+                className="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-block"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >

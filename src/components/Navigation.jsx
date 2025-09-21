@@ -51,7 +51,7 @@ const Navigation = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="container mx-auto px-6 py-4">
+      <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <motion.div
             className="text-2xl font-bold gradient-text"
@@ -67,7 +67,7 @@ const Navigation = () => {
                 onClick={() => scrollToSection(item.id)}
                 className={`relative px-3 py-2 text-sm font-medium transition-colors duration-200 ${
                   activeSection === item.id
-                    ? 'text-indigo-600'
+                    ? 'text-primary-600'
                     : 'text-gray-600 hover:text-gray-900'
                 }`}
                 whileHover={{ y: -2 }}
@@ -76,7 +76,7 @@ const Navigation = () => {
                 {item.label}
                 {activeSection === item.id && (
                   <motion.div
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-indigo-500 to-pink-500"
+                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-primary"
                     layoutId="activeIndicator"
                     initial={false}
                     transition={{ type: "spring", stiffness: 500, damping: 30 }}
@@ -88,7 +88,7 @@ const Navigation = () => {
 
           {/* Mobile menu button */}
           <motion.button
-            className="md:hidden p-2"
+            className="md:hidden p-2 text-gray-600 hover:text-gray-900"
             whileTap={{ scale: 0.95 }}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

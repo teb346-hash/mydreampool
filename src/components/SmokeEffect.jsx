@@ -81,3 +81,4 @@ const SmokeEffect = ({ mousePosition }) => {
 }
 
 export default SmokeEffect
+

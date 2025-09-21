@@ -24,14 +24,14 @@ const Hero = ({ data }) => {
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 via-white to-pink-50"></div>
+      <div className="absolute inset-0 bg-gradient-hero"></div>
       
       {/* Floating elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-indigo-200 rounded-full opacity-20 animate-pulse"></div>
-      <div className="absolute top-40 right-20 w-32 h-32 bg-pink-200 rounded-full opacity-20 animate-pulse delay-1000"></div>
-      <div className="absolute bottom-20 left-20 w-16 h-16 bg-cyan-200 rounded-full opacity-20 animate-pulse delay-2000"></div>
+      <div className="absolute top-20 left-10 w-20 h-20 bg-primary-200 rounded-full opacity-20 animate-pulse"></div>
+      <div className="absolute top-40 right-20 w-32 h-32 bg-secondary-200 rounded-full opacity-20 animate-pulse delay-1000"></div>
+      <div className="absolute bottom-20 left-20 w-16 h-16 bg-accent-200 rounded-full opacity-20 animate-pulse delay-2000"></div>
       
-      <div className="container mx-auto px-6 text-center relative z-10">
+      <div className="max-w-7xl mx-auto px-6 text-center relative z-10">
         <motion.div
           variants={containerVariants}
           initial="hidden"

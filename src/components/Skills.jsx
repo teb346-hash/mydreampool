@@ -23,7 +23,7 @@ const Skills = ({ data }) => {
 
   return (
     <section id="skills" className="section">
-      <div className="container mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -54,7 +54,7 @@ const Skills = ({ data }) => {
                 </h3>
                 <div className="w-full bg-gray-200 rounded-full h-2 mb-2">
                   <motion.div
-                    className="bg-gradient-to-r from-indigo-500 to-pink-500 h-2 rounded-full"
+                    className="bg-gradient-primary h-2 rounded-full"
                     initial={{ width: 0 }}
                     whileInView={{ width: `${skill.level}%` }}
                     viewport={{ once: true }}
@@ -72,7 +72,7 @@ const Skills = ({ data }) => {
             variants={itemVariants}
             className="mt-16 text-center"
           >
-            <div className="bg-gradient-to-r from-indigo-500 to-pink-500 rounded-2xl p-8 text-white">
+            <div className="bg-gradient-primary rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-bold mb-4">Always Learning</h3>
               <p className="text-lg opacity-90 max-w-2xl mx-auto">
                 Technology evolves rapidly, and so do I. I'm constantly exploring new frameworks, 

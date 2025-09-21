@@ -23,7 +23,7 @@ const About = ({ data }) => {
 
   return (
     <section id="about" className="section bg-gray-50">
-      <div className="container mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -56,27 +56,27 @@ const About = ({ data }) => {
                 className="mt-8 flex flex-wrap gap-4 justify-center"
               >
                 <motion.div
-                  className="flex items-center space-x-2 bg-indigo-50 px-4 py-2 rounded-full"
+                  className="flex items-center space-x-2 bg-primary-50 px-4 py-2 rounded-full"
                   whileHover={{ scale: 1.05 }}
                 >
-                  <span className="text-indigo-600 font-semibold">🎯</span>
-                  <span className="text-indigo-700">Goal-Oriented</span>
+                  <span className="text-primary-600 font-semibold">🎯</span>
+                  <span className="text-primary-700">Goal-Oriented</span>
                 </motion.div>
                 
                 <motion.div
-                  className="flex items-center space-x-2 bg-pink-50 px-4 py-2 rounded-full"
+                  className="flex items-center space-x-2 bg-secondary-50 px-4 py-2 rounded-full"
                   whileHover={{ scale: 1.05 }}
                 >
-                  <span className="text-pink-600 font-semibold">🚀</span>
-                  <span className="text-pink-700">Innovative</span>
+                  <span className="text-secondary-600 font-semibold">🚀</span>
+                  <span className="text-secondary-700">Innovative</span>
                 </motion.div>
                 
                 <motion.div
-                  className="flex items-center space-x-2 bg-cyan-50 px-4 py-2 rounded-full"
+                  className="flex items-center space-x-2 bg-accent-50 px-4 py-2 rounded-full"
                   whileHover={{ scale: 1.05 }}
                 >
-                  <span className="text-cyan-600 font-semibold">💡</span>
-                  <span className="text-cyan-700">Creative</span>
+                  <span className="text-accent-600 font-semibold">💡</span>
+                  <span className="text-accent-700">Creative</span>
                 </motion.div>
                 
                 <motion.div
